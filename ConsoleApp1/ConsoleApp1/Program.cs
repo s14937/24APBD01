@@ -5,9 +5,9 @@ Console.WriteLine("aww yeah");
 static double avg(int[] ints)
 {
     int sum = 0;
-    for (int i = 0;i<ints.Length;i++)
+    for (int j = 0;j<ints.Length;j++)
     {
-        sum += ints[i];
+        sum += ints[j];
     }
 
     return (sum / Convert.ToDouble(ints.Length));
